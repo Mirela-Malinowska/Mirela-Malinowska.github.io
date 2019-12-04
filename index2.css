@@ -63,6 +63,14 @@ nav a:hover{
       
 }
 
+img#dog {
+  height:70vh;
+  width: auto;
+}
+img#cat {
+  height:60vh;
+  width: auto;
+}
 /* nav a::before{ 
     content:'';
     display:block;
@@ -93,6 +101,9 @@ nav a :hover::before{
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 70px;
+
+
     background-color: rgb(10, 50, 50);
     color: white;
     text-align: center;
@@ -101,6 +112,18 @@ nav a :hover::before{
     list-style: none;
     
   }
+
+  .btn {
+    border: black;
+    background-color: inherit;
+    padding: 10px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display:;
+  }
+
+  .btn:hover {background:#2EDDE8;
+  color:rgb(161, 32, 212)}
   .footer a {
       color: rgb(255, 255, 255);
 
@@ -116,7 +139,7 @@ nav a :hover::before{
     padding: 20px;
     font-size: 30px;
     width: 50px;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
   }
   
